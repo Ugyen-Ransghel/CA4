@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="title"><h1>User Profile</h1></div>
+
+        <br>
+
+        <div class="sheet">
+
+            <div class="topic">Personal Details</div>
+
+            <hr>
+
+            <div class="wrapper">
+
+                <div class="card">
+
+                    <img src="" alt="">
+
+                    <p>Name of the User</p>
+                    <p>USer:ID</p>
+                    <p>Program involved in</p>
+                    <p>Role</p>
+                    <p>Time Interval</p>
+                    <p>Organisation</p>
+                    <p>Year of Publication</p>
+                    <p>Status: Reported</p>
+
+                </div>
+
+                <div class="accordion">
+
+                    <div class="contentBx">
+            
+                        <div class="label">User Data</div>
+            
+                        <div class="content">
+                            <p>blah blah blah</p>
+                        </div>
+            
+                    </div>
+            
+                    <div class="contentBx">
+            
+                        <div class="label">Address</div>
+            
+                        <div class="content">
+                            <p>blah blah blah</p>
+                        </div>
+            
+                    </div>
+            
+                    <div class="contentBx">
+            
+                        <div class="label">Contact Details</div>
+            
+                        <div class="content">
+                            <p>blah blah blah</p>
+                        </div>
+            
+                    </div>
+            
+                    <div class="contentBx">
+            
+                        <div class="label">Stock Details</div>
+            
+                        <div class="content">
+                            <p>blah blah blah</p>
+                        </div>
+            
+                    </div>
+            
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        const accordion = document.getElementsByClassName('contentBx')
+
+        for(i=0; i<accordion.length; i++){
+            accordion[i].addEventListener('click', function(){
+                this.classList.toggle('active')
+            })
+        }
+    </script>
+    
+</body>
+</html>

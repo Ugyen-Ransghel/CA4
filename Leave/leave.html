@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Application</title>
+    <link rel="stylesheet" href="leave.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="application">
+
+            <h3>Leave Application</h3>
+
+        <hr>
+
+        <p>***Please select leave category from the drop down list based on the leave you are applying for. Your leave will be approved by the authority based on the category you are applying. If you are applying leave during weekdays means please select category "Weekday Leave" and if you are applying during weekend then please select "Weekend Leave".
+        </p>
+
+        <p>NOTE: Especially for Dayscholar, no need to apply for "Weekend Leave".</p>
+
+        <br>
+
+        <form action="GET">
+
+            <label for="category">Leave Category: *</label>
+            <select name="category" id="category" required>
+
+                <option value="">Please select leave category</option>
+                <option value="">Weekend Leave</option>
+                <option value="">Weekday Leave</option>
+
+            </select>
+
+            <br><br>
+
+            <label for="Fdate">From Date: *</label>
+            <input type="date" name="Fdate" required>
+
+            <label for="Tdate">To Date: *</label>
+            <input type="date" name="Tdate" required>
+
+            <br><br>
+
+            <label for="Reasons">Reasons:*</label><br>
+            <textarea name="Reasons" id="" cols="45" rows="5"></textarea>
+
+            <br><br>
+
+            <label for="Leave">Leaving Form:*</label>
+            <select name="Leave" id="" required>
+                
+                <option value="">Select Outing</option>
+                <option value="">Morning</option>
+                <option value="">Afternoon</option>
+                <option value="">Evening</option>
+                <option value="">Whole Day</option>
+
+            </select>
+
+            <br><br>
+
+            <label for="file">Attach Documents:*</label>
+            <input type="file" name="file" required>
+
+            <br><br><br>
+
+        </form>
+
+        <hr>
+
+            <input class="submit" type="submit" value="Submit">
+
+        </div>
+
+        </div>
+
+</body>
+</html>

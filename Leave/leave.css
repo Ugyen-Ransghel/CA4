@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    padding: 30px;
+    background-color: #F7F7F7;
+}
+.container form{
+    margin-left: 50px;
+}
+
+input, select, textarea{
+    color: grey;
+    border: 1px solid #CCCCCC;
+    padding:7px;
+    background-color: #EEEEEE;
+}
+label{
+    font-size: 1.1em;
+    color: #405a77;
+}
+
+.application{
+    color: #73879C;
+    border: 1px solid #E6E9ED;
+    padding: 30px;
+    background-color: white;
+}
+.application h3{
+    padding-bottom: 20px;
+}
+
+.application p{
+    padding: 10px;
+}
+.submit{
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background:#007D71;
+    border: 1px solid #007D71;
+    cursor: pointer;
+}

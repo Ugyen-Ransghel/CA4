@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    margin: 50px;
+    border: 1px solid #E6E9ED;
+    padding: 25px;
+    background-color: white;
+}
+body{
+    background-color: #F7F7F7;
+}
+h1{
+    color: #73879C;
+}
+h2{
+    color: #7396C6;
+}
+p, li{
+    color: #73879C;
+}

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="publication.css">
+
+	<title>Otaku</title>
+</head>
+<body>
+
+
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bx bxs'><img src="/image/logo.png" alt="logo" style="width: 50px;"></i>
+			<span class="text">Otaku</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="/Home/home.html">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="/Publication/publication.html">
+					<i class='bx bxs-shopping-bag-alt' ></i>
+					<span class="text">Publication</span>
+				</a>
+			</li>
+			<li>
+				<a href="/Inventory And Property/Inventoryproperty.html">
+					<i class='bx bxs-doughnut-chart'></i>
+					<span class="text">Inventory</span>
+				</a>
+			</li>
+			<li>
+				<a href="/Task and Tour/TaskandTour.html">
+					<i class='bx bxs-message-dots' ></i>
+					<span class="text">Task and Tour</span>
+				</a>
+			</li>
+			<li>
+				<a href="/Help/Help.html">
+					<i class='bx bxs-group' ></i>
+					<span class="text">Help</span>
+				</a>
+			</li>
+			<li>
+				<a href="/Rule/rule.html">
+					<i class='bx bxs-notification' ></i>
+					<span class="text">Rules</span>
+				</a>
+			</li>
+			<li>
+				<a href="/Services/service.html">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Services</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<section id="content">
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<a href="#" class="nav-link">Categories</a>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="/Notification/notify.html" class="notification">
+				<i class='bx bxs-bell' ></i>
+				<span class="num">8</span>
+			</a>
+			<a href="#" class="profile">
+				<img src="/image/user.png" alt="" class="profile" onclick="toggleMenu()">
+			</a>
+		</nav>
+
+		<div class="sub-menu-wrap" id="sub-menu">
+			<div class="sub-menu">
+					<a href="/Profile/profile.html" class="drd">Profile</a> <br>
+					<a href="/Change password/changePassword.html" class="drd">Password</a> <br>
+					<a href="/Calender/calender.html" class="drd">Calender</a><br>
+					<a href="/login/login.html" class="drd">Logout</a>
+
+			</div>
+		</div>
+
+		<div class="slides-box">
+ 
+			<div class="slider">
+				<div class="slides">
+					<div class="slide first" id="first">
+						<!-- <img src="./image/AOT banner.jpg" alt=""> -->
+					</div>
+					<div class="slide second">
+						<!-- <img src="./image/fate long banner.png" alt=""> -->
+					</div>
+					<div class="slide third">
+						<!-- <img src="./image/yourname banner.jpg" alt=""> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	 
+		</div>
+
+	 
+	 
+		<div id="AllBanners">
+			<div id="primaryMainContainer">
+	 
+				<div id="contentBanners">
+						<div id="MainContainer">
+								<div id="Heading-box">
+									<div class="heading">Trending Now</div>
+									<div class="viewAll">view all
+										<i class="fas fa-arrow-right"></i>
+									</div>
+							   </div>
+	 
+								<div id="Banners-container">
+									<div class="Image-Name">
+										<img src="/image/fate.jpg" alt="Fate stye night">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											Fate Stay Night:Unlimited blade works
+										</div>
+									</div>
+									<div class="Image-Name">
+										<img src="/image/future diary.jpg" alt="">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											Future diary
+										</div>
+									</div>
+									<div class="Image-Name">
+										<img src="/image/DAB.jpg" alt="">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											Date a bullet
+										</div>
+									</div>
+									<div class="Image-Name">
+										<img src="/image/erased.jpeg" alt="">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											Erased
+										</div>
+									</div>
+									<div class="Image-Name">
+										<img src="/image/MHA.jpg" alt="">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											My Hero Acadmia
+										</div>
+									</div>
+									<div class="Image-Name">
+										<img src="/image/death note.jfif" alt="">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											Death Note
+										</div>
+									</div>
+								</div>
+						   </div>
+						<!-- For Trending Now  -->
+	 
+						<!-- Popular Shows  -->
+						<div id="MainContainer">
+							<!-- <div id="insideMainContainer"> -->
+								<div id="Heading-box">
+									<div class="heading">Popular Shows</div>
+									<div class="viewAll">view all
+										<i class="fas fa-arrow-right"></i>
+									</div>
+								</div>
+	 
+								<div id="Banners-container">
+									<div class="Image-Name">
+										<img src="/image/classroom.jfif" alt="Fate stye night">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											Classroom of the Elite
+										</div>
+									</div>
+									<div class="Image-Name">
+										<img src="/image/human lost.jfif" alt="">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											Human Lost
+										</div>
+									</div>
+									<div class="Image-Name">
+										<img src="/image/your lie in april.jpg" alt="">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											Your lie in April
+										</div>
+									</div>
+									<div class="Image-Name">
+										<img src="/image/yourname.jpg" alt="">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											YourName
+										</div>
+									</div>
+									<div class="Image-Name">
+										<img src="/image/mugen train.jpg" alt="">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											Demon Slayer:Mugen Train
+										</div>
+									</div>
+									<div class="Image-Name">
+										<img src="/image/AOT.jfif" alt="">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											Attack on titan:Season 4
+										</div>
+									</div>
+								</div>
+							<!-- </div> -->
+						</div>
+						<!-- Popular Shows -->
+	 
+						<!-- Recently added  -->
+						<div id="MainContainer">
+							<!-- <div id="insideMainContainer"> -->
+								<div id="Heading-box">
+									<div class="heading">Recently added</div>
+									<div class="viewAll">view all
+										<i class="fas fa-arrow-right"></i>
+									</div>
+								</div>
+	 
+								<div id="Banners-container">
+									<div class="Image-Name">
+										<img src="/image/I want to eat you pancreas.jfif" alt="Fate stye night">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											I want to eat your pancreas
+										</div>
+									</div>
+									<div class="Image-Name">
+										<img src="/image/ne zha.jpg" alt="">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											Ne Zha
+										</div>
+									</div>
+									<div class="Image-Name">
+										<img src="/image/MHA movie.jpg" alt="">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											My Hero Acadmia:Ultimate heros
+										</div>
+									</div>
+									<div class="Image-Name">
+										<img src="/image/sprirted away movie.jpg" alt="">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											Spirited away
+										</div>
+									</div>
+									<div class="Image-Name">
+										<img src="/image/AOT movie.jpg" alt="">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											Attack on titan:Chronicle
+										</div>
+									</div>
+									<div class="Image-Name">
+										<img src="/image/yourname.jpg" alt="">
+										<span class="ep">06/16</span>
+										<span class="comments"><i class="fas fa-comments"></i>11</span>
+										<span class="watch"><i class="far fa-eye"></i> 9987</span>
+										<div class="content-type">
+											<span class="action">Action</span>
+											<span class="adventure">Adventure</span>
+										</div>
+										<div class="show-name">
+											YourName
+										</div>
+									</div>
+								</div>
+							<!-- </div> -->
+						</div>
+	 
+				</div>
+				<!-- Recently added -->
+	 
+	 
+				<!-- Latest News -->
+				<div id="LatestNews">
+					<div id="LatestNewsSection">
+						<div id="insideLatestNews">
+	 
+							<div id="Heading-box2">
+								<div class="headingInNews">Latest News</div>
+								<div class="viewAllInNews">view all
+									<i class="fas fa-arrow-right"></i>
+								</div>
+							</div>
+						 
+						<div id="LatestNewses">
+							<div id="ImageOfNews" style="margin: 0;">
+								<span class="epInNews">06/16</span>
+									<span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
+								<img src="/image/boruto wide banner.jfif" alt="">
+								<span class="name">
+									Boruto : Next generation
+								</span>
+							</div>
+							<div id="ImageOfNews">
+								<span class="epInNews">06/16</span>
+									<span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
+								<img src="/image/erased wide banner.jpeg" alt="">
+								<span class="name">
+									Erased
+								</span>
+							</div>
+							<div id="ImageOfNews">
+								<span class="epInNews">06/16</span>
+									<span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
+								<img src="/image/MHA banner.jfif" alt="">
+								<span class="name">
+									My Hero Acadmia : The Movie
+								</span>
+							</div>
+							<div id="ImageOfNews">
+								<span class="epInNews">06/16</span>
+									<span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
+								<img src="/image/mugen train wide banner.jpg" alt="">
+								<span class="name">
+									demon slayer:Mugen train
+								</span>
+							</div>
+							<div id="ImageOfNews">
+								<span class="epInNews">06/16</span>
+									<span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
+								<img src="/image/classroom wide banner.jfif" alt="">
+								<span class="name">
+									Classroom of the Elite
+								</span>
+							</div>
+							<div id="ImageOfNews">
+								<span class="epInNews">06/16</span>
+									<span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
+								<img src="/image/death note wide banner.jfif" alt="">
+								<span class="name">
+									Death Note
+								</span>
+							</div>
+							<video width="360px" height="340px" controls="false" autoplay loop>
+								<source src="/image/Vid1.mp4">
+							</video>
+
+							<video width="360px" height="340px" controls="false" autoplay loop>
+								<source src="/image/vid2.mp4">
+							</video>
+						</div>
+					</div>
+				</div>
+				<!-- Latest News -->
+	 
+			</div>
+		</div>
+	 
+		</div>
+	<!-- ALL SHOWS  -->
+	
+
+	<script src="publication.js"></script>
+</body>
+</html>
